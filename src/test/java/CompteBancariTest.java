@@ -15,7 +15,7 @@ public class CompteBancariTest { // Afegit "public"
     void testCreacioCorrecta() {
         assertEquals("Joan Garcia", compte.getTitular());
         assertEquals("ES1234567890123456789012", compte.getIban());
-        assertEquals(1000.0, compte.getSaldo(), 0.001);
+        assertEquals(999, compte.getSaldo(), 0.001);
     }
 
     @Test
